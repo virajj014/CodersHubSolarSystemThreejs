@@ -57,7 +57,7 @@ function loadPlanetTexture(texture, radius, widthSegments, heightSegments, meshT
 
 
 function createRing(innerRadius) {
-  let outerRadius = innerRadius - 0.01
+  let outerRadius = innerRadius - 0.1
   let thetaSegments = 100
   const geometry = new THREE.RingGeometry(innerRadius, outerRadius, thetaSegments);
   const material = new THREE.MeshBasicMaterial({ color: '#ffffff', side: THREE.DoubleSide });
