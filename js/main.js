@@ -78,7 +78,7 @@ function init() {
     1000
   );
 
-  // setSkyBox();
+  setSkyBox();
   planet_earth = loadPlanetTexture("../img/earth_hd.jpg", 4, 100, 100);
   planet_sun = loadPlanetTexture("../img/sun_hd.jpg", 20, 100, 100);
   planet_mercury = loadPlanetTexture("../img/mercury_hd.jpg", 2, 100, 100);
