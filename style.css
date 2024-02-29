@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#c {
+  /* background: url("./img/space_stars_bg.jpg") no-repeat center center; */
+  background: black;
+  background-size: cover;
+}
+.btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 5px;
+  left: 2%;
+  width: 120px;
+}
+.btn {
+  background: white;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#msg {
+  position: absolute;
+  background: transparent;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+.btn-zoom {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 40px;
+  left: 10px;
+  height: 120px;
+  justify-content: space-between;
+}
+
+.quality-select {
+  position: fixed;
+  top: 20px;
+  right: 5px;
+}
